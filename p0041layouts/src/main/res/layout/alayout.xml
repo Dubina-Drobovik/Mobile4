@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button7" android:layout_y="145dp"
+            android:layout_x="90dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView7" android:layout_y="58dp"
+            android:layout_x="234dp"/>
+    <CheckBox
+            android:text="CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_y="402dp" android:layout_x="239dp"
+            android:id="@+id/checkBox"/>
+    <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_y="567dp" android:layout_x="70dp"
+            android:id="@+id/radioButton"/>
+</AbsoluteLayout>
